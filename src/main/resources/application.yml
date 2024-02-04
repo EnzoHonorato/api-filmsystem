@@ -1,0 +1,22 @@
+#server:
+#  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/filmsystem2?createDatabaseIfNotExist=true
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
+
+#  security:
+#    user:
+#      name: root
+#      password: root
