@@ -4,6 +4,10 @@ Aplicação criada com o objetivo de praticar os meus conhecimentos em Spring Bo
 
 Utilizei do [springdoc](https://springdoc.org/) para documentar a API. Documentação disponível no endpoint "/swagger-ui/index.html"
 
+[Repositório com o front-end da aplicação](https://github.com/EnzoHonorato/front-filmsystem)
+
+[Vídeo completo de explicação](https://youtu.be/_-ZR9ijPc2U)
+
 ---
 
 👨‍🦲 Se trata de um sistema de filmes onde **2 tipos de usuários (USER e ADMIN)** podem se autenticar via [**JWT**](https://github.com/auth0/java-jwt) e realizar as seguintes operações:
